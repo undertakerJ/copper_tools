@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    " S",
-    " S"
-  ],
   "key": {
-    "#": {
+    "C": {
       "item": "minecraft:copper_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "CCC",
+    " S ",
+    " S "
+  ],
   "result": {
-    "item": "basiccopper:copper_hoe"
+    "item": "basiccopper:copper_pickaxe"
   }
 }

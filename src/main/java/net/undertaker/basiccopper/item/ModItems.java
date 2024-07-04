@@ -64,7 +64,7 @@ public class ModItems {
               new ArmorItem(
                   ModArmorMaterial.COPPER,
                   EquipmentSlot.HEAD,
-                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).defaultDurability(99)));
   public static final RegistryObject<Item> COPPER_CHESTPLATE =
       ITEMS.register(
           "copper_chestplate",
@@ -72,7 +72,7 @@ public class ModItems {
               new ArmorItem(
                   ModArmorMaterial.COPPER,
                   EquipmentSlot.CHEST,
-                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).defaultDurability(140)));
   public static final RegistryObject<Item> COPPER_LEGGINGS =
       ITEMS.register(
           "copper_leggings",
@@ -80,7 +80,7 @@ public class ModItems {
               new ArmorItem(
                   ModArmorMaterial.COPPER,
                   EquipmentSlot.LEGS,
-                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).defaultDurability(135)));
   public static final RegistryObject<Item> COPPER_BOOTS =
       ITEMS.register(
           "copper_boots",
@@ -88,7 +88,7 @@ public class ModItems {
               new ArmorItem(
                   ModArmorMaterial.COPPER,
                   EquipmentSlot.FEET,
-                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+                  new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).defaultDurability(115)));
 
   public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
